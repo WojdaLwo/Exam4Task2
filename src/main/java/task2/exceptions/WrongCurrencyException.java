@@ -1,11 +1,11 @@
 package task2.exceptions;
 
-public class WrongCurrencyException extends RuntimeException
+public class WrongFromCurrencyException extends RuntimeException
 {
-    public WrongCurrencyException() {
+    public WrongFromCurrencyException() {
     }
 
-    public WrongCurrencyException(String message) {
+    public WrongFromCurrencyException(String message) {
         super(message);
     }
 }
